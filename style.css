@@ -39,7 +39,7 @@ tbody > tr:nth-child(odd) {
 }
 
 thead, tfoot {
-  background: url("./assets/leopardskin.jpg");
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url("./assets/leopardskin.jpg");
   height: 100px;
 }
 
