@@ -1,0 +1,65 @@
+
+body {
+  margin: 2em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #800080;
+  table-layout: fixed;
+}
+
+th {
+  font-family: 'Rock Salt', cursive;
+  border: 2px solid #800080;
+  color: white;
+}
+
+tbody {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+tbody > tr > td {
+  height: 45px;
+}
+
+td.band {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* css nth */
+tbody > tr:nth-child(even) {
+background: #e495e4 url("./assets/noise.png");
+}
+tbody > tr:nth-child(odd) {
+  background: #f3c url("./assets/noise.png");
+}
+
+thead, tfoot {
+  background: url("./assets/leopardskin.jpg");
+  height: 100px;
+}
+
+tfoot {
+  color: white;
+}
+
+td#album {
+  font-family:'Rock Salt', cursive;
+  text-align: right;
+  font-weight: bold;
+  border: 2px solid #800080;
+  width: 2000px;
+}
+
+td#total {
+  border: 2px solid #800080;
+}
+
+footer {
+  font-family: 'Rock Salt', cursive;
+  text-align: right;
+}
